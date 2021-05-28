@@ -16,14 +16,23 @@ def main():
 		five = x % 5
 		if fifteen == 0:
 			print("FizzBuzz")
+			if x == 30:
+				thirty = "FizzBuzz"
 		elif three == 0:
 			print("Fizz")
+			if x == 30:
+				thirty = "Fizz"
 		elif five == 0:
 			print("Buzz")
+			if x == 30:
+				thirty = "Buzz"
 		else:
 			print(x)
+			if x == 30:
+				thirty = str(x)
 		x = x + 1
-	return x
+	ans = (x, thirty)
+	return ans
 
 
 if __name__ == '__main__':
