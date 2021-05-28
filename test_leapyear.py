@@ -22,7 +22,7 @@ class testLeapYear(unittest.TestCase):
 			exAns = 1
 		elif expect == "n":
 			exAns = 0
-		self.assertEqual(exAns, ans)
+		self.assertTrue(exAns == ans)
 
 if __name__ == '__main__':
 	unittest.main()
