@@ -6,14 +6,18 @@
 ###############################
 
 import unittest
-#import avg
+import fizzBuzz
 
 
 class testFizzBuzz(unittest.TestCase):
 
 
 	def test_size(self):
-		size = fizz.fizzBuzz(x)
-		self.assertEqual(size == 100)
+		size = fizzBuzz.main()
+		self.assertEqual(size, 101)
+
+
+if __name__ == '__main__':
+	unittest.main()
 
 
