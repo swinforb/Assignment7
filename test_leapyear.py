@@ -6,13 +6,13 @@
 ###############################
 
 import unittest
-#import leapyear
+import leapyear
 
 
 class testLeapYear(unittest.TestCase):
 
 	def test_type(self):
-		print("There SHOULD be an error if the type is correct")
+		print("There SHOULD be an failure if the type is correct, not an error")
 		with self.assertRaises(ValueError): leapyear.main()
 
 
