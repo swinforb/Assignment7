@@ -9,6 +9,7 @@
 
 def main():
 	x = 1
+	thirty = ""
 	while x <= 100:
 		fifteen = x % 15
 		three = x % 3

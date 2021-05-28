@@ -20,7 +20,7 @@ class testFizzBuzz(unittest.TestCase):
 	def test_value_30(self):
 		ans = fizzBuzz.main()
 		thirty = ans[1]
-		self.assertEqual(thirty, "Fizz")
+		self.assertEqual(thirty, "FizzBuzz")
 
 
 
