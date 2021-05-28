@@ -13,8 +13,15 @@ class testFizzBuzz(unittest.TestCase):
 
 
 	def test_size(self):
-		size = fizzBuzz.main()
+		ans = fizzBuzz.main()
+		size = ans[0]
 		self.assertEqual(size, 101)
+
+	def test_value_30(self):
+		ans = fizzBuzz.main()
+		thirty = ans[1]
+		self.assertEqual(thirty, "Fizz")
+
 
 
 if __name__ == '__main__':
